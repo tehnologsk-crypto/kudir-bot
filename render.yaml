@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: kudir-bot
+    env: python
+    region: frankfurt  # или ваш регион
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python bot_kudir.py"
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+    pythonVersion: "3.12.7"
