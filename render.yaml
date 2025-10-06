@@ -9,4 +9,4 @@ services:
     envVars:
       - key: TELEGRAM_BOT_TOKEN
         sync: false
-    pythonVersion: "3.12"  # ← только "3.12", без патча!
+    pythonVersion: "3.12"
