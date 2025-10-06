@@ -1,6 +1,6 @@
 import os
 import logging
-from from aiogram import Bot, Dispatcher, executor, types
+from aiogram import Bot, Dispatcher, executor, types
 import pandas as pd
 from io import BytesIO
 from openpyxl import Workbook
